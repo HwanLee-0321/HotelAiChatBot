@@ -31,12 +31,19 @@ cd chatbot
 ### 2. 필수 패키지 설치
 Python 3.8 이상이 필요합니다. 
 openai==1.3.5             # OpenAI API 사용 (GPT 모델 활용)
+
 pandas==2.0.3             # 데이터 처리 및 CSV 파일 관리
+
 numpy==1.26.2             # 수치 연산 및 벡터 처리
+
 scipy==1.11.4             # 벡터 유사도 계산 (cosine similarity)
+
 tiktoken==0.5.1           # 텍스트 토큰화 및 토큰 수 계산
+
 requests==2.31.0          # HTTP 요청 (필요 시)
+
 beautifulsoup4==4.12.2    # 웹 스크래핑 (필요 시)
+
 
 ## 실행 방법
 ### 1. 데이터 준비
